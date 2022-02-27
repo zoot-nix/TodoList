@@ -7,13 +7,16 @@ The definition is a simple one. It's a list of tasks you need to complete or thi
 
 A Django based web application to create a simple To-Do list.
 
+## Visit
+
+https://zt-todolist.herokuapp.com
+
+
 ## Project Screen Shot(s)
 
 #### Example:   
+<img width="1217" alt="To-DoApp" src="https://user-images.githubusercontent.com/66899497/155890230-db8add7e-51eb-4427-b591-1e6a12910a23.png">
 
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
 
 ## Installation and Setup Instructions.
 
