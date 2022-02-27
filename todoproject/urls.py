@@ -25,7 +25,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', todoappView),
     path('addTodoItem/',addTodoView),
-    path('deleteTodoItem/<int:i>/', deleteTodoView),
-    url(r'^media/(?P<path>.*)$', serve,{'document_root':settings.MEDIA_ROOT}), 
+    path('deleteTodoItem/<int:i>/', deleteTodoView), 
     url(r'^static/(?P<path>.*)$', serve,{'document_root':settings.STATIC_ROOT}), 
 ]
