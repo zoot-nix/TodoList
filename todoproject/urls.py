@@ -18,8 +18,7 @@ from django.urls import path
 from todoapp.views import todoappView, addTodoView, deleteTodoView
 from django.views.static import serve
 from django.conf import settings
-from django.conf.urls import url
-
+from django.urls import re_path as url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
